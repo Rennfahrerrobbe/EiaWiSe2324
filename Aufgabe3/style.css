@@ -66,8 +66,8 @@
   
   .image-container img {
     width: 100px; 
-    height: auto; /
-    margin: 10px; 
+    height: auto; 
+    margin: 0 10px; 
     vertical-align: middle; 
   }
   
