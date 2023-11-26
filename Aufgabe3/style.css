@@ -55,20 +55,20 @@
   }
 
   .image-container {
-    position: fixed; /* Fixiert den Container am unteren Rand der Seite */
+    position: fixed; 
     left: 0;
-    bottom: 50px; /* Stellen Sie diesen Wert so ein, dass er über dem Footer liegt */
+    bottom: 50px; 
     width: 100%;
-    text-align: center; /* Zentriert die Bilder im Container */
-    padding: 10px 0; /* Fügt etwas Abstand oben und unten hinzu */
-  }
+    text-align: center; 
+    padding: 10px 0; 
+}
   
-  /* Stil für jedes Bild im Container */
+  
   .image-container img {
-    width: 100px; /* Stellen Sie die Breite jedes Bildes ein */
-    height: auto; /* Passt die Höhe automatisch an die Breite an */
-    margin: 0 10px; /* Fügt seitlichen Abstand zwischen den Bildern hinzu */
-    vertical-align: middle; /* Stellt sicher, dass die Bilder vertikal zentriert sind */
+    width: 100px; 
+    height: auto; /
+    margin: 0 10px; 
+    vertical-align: middle; 
   }
   
   
@@ -84,13 +84,13 @@
     width: 100%; 
   }
   
-  /* For mobile phones: */
+  
   [class*="col-"] {
     width: 100%;
   }
   
   @media only screen and (min-width: 600px) {
-    /* For tablets: */
+    
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
     .col-s-3 {width: 25%;}
@@ -106,7 +106,7 @@
   }
   
   @media only screen and (min-width: 768px) {
-    /* For desktop: */
+   
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
